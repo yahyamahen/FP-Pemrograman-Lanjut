@@ -87,7 +87,7 @@ void input(int i){
 		printf("- Masukan Tanggal Pem File (1-31) : "); fflush (stdin); scanf("%d",&a[i].ttlfl.tanggal);
 	}while(a[i].ttlfl.tanggal < 1 || a[i].ttlfl.tanggal > 30);
 	do{
-		printf("- Masukan Bulan Pem File(1-12)    : "); fflush (stdin); scanf("%d",&a[i].ttlfl.bulan);
+		printf("- Masukan Bulan Pem File (1-12)   : "); fflush (stdin); scanf("%d",&a[i].ttlfl.bulan);
 		if(a[i].ttlfl.bulan == 1)
 			strcpy(a[i].ttlfl.ketbulan,"Januari");
 		else if(a[i].ttlfl.bulan == 2)
@@ -135,16 +135,16 @@ void view(int i){
 //Ubah Data
 void updatefile(int i){
 	printf("\n[File ke-%d] \n", i+1);
-	printf("- Ubah Nama File        : "); fflush (stdin); gets(a[i].nama_file);
-	printf("- Ubah Owner File       : "); fflush (stdin); gets(a[i].owner);
-	printf("- Ubah Jenis File       : "); fflush (stdin); gets(a[i].jnsfl.jenis);
-	printf("- Ubah Ekstensi File    : "); fflush (stdin); gets(a[i].jnsfl.ekstensi);
+	printf("- Ubah Nama File               : "); fflush (stdin); gets(a[i].nama_file);
+	printf("- Ubah Owner File              : "); fflush (stdin); gets(a[i].owner);
+	printf("- Ubah Jenis File              : "); fflush (stdin); gets(a[i].jnsfl.jenis);
+	printf("- Ubah Ekstensi File           : "); fflush (stdin); gets(a[i].jnsfl.ekstensi);
 	do{
-		printf("- Ubah Tanggal Pem File : "); fflush (stdin); scanf("%d",&a[i].ttlfl.tanggal);
+		printf("- Ubah Tanggal Pem File (1-31) : "); fflush (stdin); scanf("%d",&a[i].ttlfl.tanggal);
 	}while(a[i].ttlfl.tanggal < 1 || a[i].ttlfl.tanggal > 30);
 	
 	do{
-		printf("- Ubah Bulan Pem File   : "); fflush (stdin); scanf("%d",&a[i].ttlfl.bulan);
+		printf("- Ubah Bulan Pem File (1-12)   : "); fflush (stdin); scanf("%d",&a[i].ttlfl.bulan);
 		if(a[i].ttlfl.bulan == 1)
 			strcpy(a[i].ttlfl.ketbulan,"Januari");
 		else if(a[i].ttlfl.bulan == 2)
@@ -170,7 +170,52 @@ void updatefile(int i){
 		else if(a[i].ttlfl.bulan == 12)
 			strcpy(a[i].ttlfl.ketbulan,"Desember");
 	}while(a[i].ttlfl.bulan < 1 || a[i].ttlfl.bulan > 13);
-	printf("- Ubah Tahun Pem File   : "); fflush (stdin); scanf("%d",&a[i].ttlfl.tahun);
+	printf("- Ubah Tahun Pem File          : "); fflush (stdin); scanf("%d",&a[i].ttlfl.tahun);
+}
+
+/*----------------------------------<PEMISAH LUAR>-----------------------------------------*/
+
+//Binary Search
+int binary_search1(fl arr[], char cari[], int n) // ID File
+{
+    int t, hasil;
+    int k = n - 1;
+    int l = 0;
+  
+    while ( l <= k )
+    {
+        t = (l + k) / 2;
+        hasil = strcmp(arr[t].id_file, cari);
+
+        if (hasil == -1)
+            l = t + 1;
+        else if (hasil == 1)
+            k = t - 1;
+        else
+            return t;
+    }       
+    return -1;  
+}
+
+int binary_search2(fl arr[], char cari[], int n) // Nama FIle
+{
+    int t, hasil;
+    int k = n - 1;
+    int l = 0;
+  
+    while ( l <= k )
+    {
+        t = (l + k) / 2;
+        hasil = strcmp(arr[t].nama_file, cari);
+
+        if (hasil == -1)
+            l = t + 1;
+        else if (hasil == 1)
+            k = t - 1;
+        else
+            return t;
+    }       
+    return -1;  
 }
 
 /*----------------------------------<PEMISAH LUAR>-----------------------------------------*/
@@ -274,6 +319,8 @@ void InsertionSort7(fl arr[], int n) // Bulan File
         arr[j + 1] = key;
     }
 }
+
+/*----------------------------------<PEMISAH LUAR>-----------------------------------------*/
 
 //Menu Utama
 void menu_utama(){
@@ -409,6 +456,7 @@ void view_data(){
 
 //Cari Data (Id,Nama,Jenis Ekstensi,Owner,Dll)
 void cari_data(){
+	int i, hasil;
 	printf("\n\t __________________________________________");
 	printf("\n\t|             SUB MENU CARI DATA           |");     
 	printf("\n\t|__________________________________________|"); 
@@ -427,22 +475,112 @@ void cari_data(){
 		{
 			system("cls");
 			printf("\n--- Cari ID data file ---\n");
-			printf("\n>> Press [ENTER] to back to menu\n");
-			printf("\n\n");
-			getch();
-			system("cls");
-			cari_data();
+			char cariid[50];
+			if(n==0){
+				printf("\n\n[Keterangan] :");
+				printf("\n ______________________________________________________ ");
+				printf("\n| Masukan data file terlebih dahulu...                 |");
+				printf("\n|______________________________________________________|");
+				printf("\n>> Press [ENTER] to back to menu\n");
+				getch();
+				system("cls");
+				cari_data();
+			} else{
+				for(i=0;i<=n;i++){
+					InsertionSort1(a,n);
+				}
+				printf("\n\n<--------------------------------->");
+				printf("\n Data yang terdaftar :");
+				printf("\n<--------------------------------->\n");
+				for(i=0; i<n; i++){
+					view(i);								
+				}
+				printf("\n\n<--------------------------------->");
+				printf("\nCari ID File : ");fflush(stdin);gets(cariid);
+				printf("<--------------------------------->\n\n");
+				hasil = binary_search1(a,cariid,n);
+				if(hasil==-1){
+					printf("[Keterangan] :");
+					printf("\n __________________________________________________ ");
+					printf("\n| Tidak ditemukan ID File %s                        |",cariid);
+					printf("\n|__________________________________________________|");
+	   				printf("\n>> Press [ENTER] to back to menu\n");
+	   				getch();
+					system("cls");
+					cari_data();
+				} else {
+					printf("[Hasil Pencarian] :\n");
+		           		for(i=hasil; i<=hasil; i++){
+							view(i);	
+						}
+					printf("\n[Keterangan] :");
+					printf("\n ________________________ ");
+					printf("\n| File Ditemukan...      |");
+					printf("\n|________________________|");
+					printf("\n>> Press [ENTER] to back to menu\n");
+					printf("\n\n");
+					getch();
+					system("cls");
+					cari_data();
+				}
+			}
 		}
 		/*++++++++++++++++++++++++++++++++++++++++[ PEMISAH DALAM ]++++++++++++++++++++++++++++++++++++++++*/
 		case 2 :
 		{
 			system("cls");
 			printf("\n--- Cari nama data file ---\n");
-			printf("\n>> Press [ENTER] to back to menu\n");
-			printf("\n\n");
-			getch();
-			system("cls");
-			cari_data();
+			char cariNama[50];
+			if(n==0){
+				printf("\n\n[Keterangan] :");
+				printf("\n ______________________________________________________ ");
+				printf("\n| Masukan data file terlebih dahulu...                 |");
+				printf("\n|______________________________________________________|");
+				printf("\n>> Press [ENTER] to back to menu\n");
+				getch();
+				system("cls");
+				cari_data();
+			}
+			else{
+				for(i=0;i<=n;i++){
+					InsertionSort2(a,n);
+				}
+				printf("\n\n<--------------------------------->");
+				printf("\n Data yang terdaftar :");
+				printf("\n<--------------------------------->\n");
+				for(i=0; i<n; i++){
+					view(i);								
+				}
+				printf("\n\n<--------------------------------->");
+				printf("\nCari Nama File : ");fflush(stdin);gets(cariNama); 
+				printf("<--------------------------------->\n\n");
+				hasil=binary_search2(a,cariNama,n);
+				if(hasil==-1){
+					printf("[Keterangan] :");
+					printf("\n __________________________________________________ ");
+					printf("\n| Tidak ditemukan Nama File %s                      |",cariNama);
+					printf("\n|__________________________________________________|");
+	   				printf("\n>> Press [ENTER] to back to menu\n");
+	   				getch();
+					system("cls");
+					cari_data();
+	   			}
+				else{
+					printf("[Hasil Pencarian] :\n");
+	           		for(i=hasil; i<=hasil; i++){
+						view(i);	
+					}
+					printf("\n[Keterangan] :");
+					printf("\n ________________________ ");
+					printf("\n| File Ditemukan...      |");
+					printf("\n|________________________|");
+					printf("\n>> Press [ENTER] to back to menu\n");
+					printf("\n\n");
+					getch();
+					system("cls");
+					cari_data();
+				}
+			}
 		}
 		/*++++++++++++++++++++++++++++++++++++++++[ PEMISAH DALAM ]++++++++++++++++++++++++++++++++++++++++*/
 		case 3 :
@@ -468,12 +606,60 @@ void cari_data(){
 
 //Ubah Data
 void ubah_data(){
-	printf("\n--- Ubah data file ---\n");
-	printf("\n>> Press [ENTER] to back to menu\n");
-	printf("\n\n");
-	getch();
+	int i,hasil;
+	char cariid[50];
 	system("cls");
-	menu_utama();
+	if(n==0){
+		printf("\n\n[Keterangan] :");
+		printf("\n ______________________________________________________ ");
+		printf("\n| Masukan data file terlebih dahulu...                 |");
+		printf("\n|______________________________________________________|");
+		printf("\n>> Press [ENTER] to back to menu\n");
+		getch();
+		system("cls");
+	} else{
+		InsertionSort1(a,n);
+		printf("\n\n<--------------------------------->");
+		printf("\n Data yang terdaftar :");
+		printf("\n<--------------------------------->\n");
+		for(i=0; i<n; i++){
+			view(i);								
+		}
+		printf("\n\n<--------------------------------->");
+		printf("\nCari ID File : ");fflush(stdin);gets(cariid);
+		printf("<--------------------------------->\n");
+		hasil = binary_search1(a,cariid,n);
+		if(hasil==-1){
+			printf("[Keterangan] :");
+			printf("\n __________________________________________________ ");
+			printf("\n| Tidak ditemukan ID File %s                        |",cariid);
+			printf("\n|__________________________________________________|");
+	   		printf("\n>> Press [ENTER] to back to menu\n");
+	   		getch();
+			system("cls");
+			menu_utama();
+		} else {			
+			printf("\n<--------------------------------->");
+			printf("\n Data file yang ingin dirubah");
+			printf("\n<--------------------------------->\n");
+			updatefile(hasil);
+
+			printf("\n\n<--------------------------------->");
+			printf("\n Hasil ubah data file");
+			printf("\n<--------------------------------->\n");
+			view(hasil);
+
+			printf("\n\n[Keterangan] :");
+			printf("\n ______________________________________________________ ");
+			printf("\n| Ubah data file berhasil...                           |");
+			printf("\n|______________________________________________________|");
+			printf("\n>> Press [ENTER] to back to menu\n");
+			printf("\n\n");
+			getch();
+			system("cls");
+			menu_utama();
+		}
+	}
 }
 
 /*----------------------------------<PEMISAH LUAR>-----------------------------------------*/
