@@ -5,7 +5,6 @@
 
 /*----------------------------------<PEMISAH LUAR>-----------------------------------------*/
 
-<<<<<<< HEAD
 //Deklarasi Struct
 struct tanggalPembuatan{
 	int tanggal;
@@ -30,8 +29,6 @@ struct file{
 fl a[50];
 
 /*----------------------------------<PEMISAH LUAR>-----------------------------------------*/
-=======
->>>>>>> d9b5a4bad49215cb97be11ad11aec44178eeab20
 
 //Deklarasi Fungsi Prototipe
 void splashscreen();
@@ -42,12 +39,9 @@ void cari_data();
 void ubah_data();
 void sort_data();
 
-<<<<<<< HEAD
 /*----------------------------------<PEMISAH LUAR>-----------------------------------------*/
 
 //Pemrosesan Utama
-=======
->>>>>>> d9b5a4bad49215cb97be11ad11aec44178eeab20
 int main(){
 	system("color B");
 	splashscreen();
@@ -74,7 +68,6 @@ void splashscreen(){
 	system("cls");
 }
 
-<<<<<<< HEAD
 /*----------------------------------<PEMISAH LUAR>-----------------------------------------*/
 
 //Deklarasi Variabel Global
@@ -282,13 +275,6 @@ void InsertionSort7(fl arr[], int n) // Bulan File
     }
 }
 
-=======
-//Deklarasi Variabel Global
-int pilihan;
-
-/*----------------------------------<PEMISAH LUAR>-----------------------------------------*/
-
->>>>>>> d9b5a4bad49215cb97be11ad11aec44178eeab20
 //Menu Utama
 void menu_utama(){
 	do{
@@ -378,15 +364,12 @@ void menu_utama(){
 void tambah_data(){
 	system("cls");
 	printf("\n--- Input data file ---\n\n");
-<<<<<<< HEAD
 	input(n);
 	n++;
 	printf("\n\n[Keterangan] :");
 	printf("\n ______________________________________________________ ");
 	printf("\n| Data file berhasil ditambahkan...                    |");
 	printf("\n|______________________________________________________|");
-=======
->>>>>>> d9b5a4bad49215cb97be11ad11aec44178eeab20
 	printf("\n>> Press [ENTER] to back to menu\n");
 	getch();
 	system("cls");
@@ -399,7 +382,6 @@ void view_data(){
 	int i;
 	system("cls");
 	printf("\n--- View data file ---\n");
-<<<<<<< HEAD
 	if(n==0){
 		printf("\n\n[Keterangan] :");
 		printf("\n ______________________________________________________ ");
@@ -421,21 +403,12 @@ void view_data(){
 		getch();
 		system("cls");
 	}
-=======
-	printf("\n>> Press [ENTER] to back to menu\n");
-	getch();
-	system("cls");
->>>>>>> d9b5a4bad49215cb97be11ad11aec44178eeab20
 }
 
 /*----------------------------------<PEMISAH LUAR>-----------------------------------------*/
 
 //Cari Data (Id,Nama,Jenis Ekstensi,Owner,Dll)
 void cari_data(){
-<<<<<<< HEAD
-=======
-	int i, hasil;
->>>>>>> d9b5a4bad49215cb97be11ad11aec44178eeab20
 	printf("\n\t __________________________________________");
 	printf("\n\t|             SUB MENU CARI DATA           |");     
 	printf("\n\t|__________________________________________|"); 
@@ -460,10 +433,6 @@ void cari_data(){
 			system("cls");
 			cari_data();
 		}
-<<<<<<< HEAD
-=======
-
->>>>>>> d9b5a4bad49215cb97be11ad11aec44178eeab20
 		/*++++++++++++++++++++++++++++++++++++++++[ PEMISAH DALAM ]++++++++++++++++++++++++++++++++++++++++*/
 		case 2 :
 		{
@@ -499,10 +468,6 @@ void cari_data(){
 
 //Ubah Data
 void ubah_data(){
-<<<<<<< HEAD
-=======
-	system("cls");
->>>>>>> d9b5a4bad49215cb97be11ad11aec44178eeab20
 	printf("\n--- Ubah data file ---\n");
 	printf("\n>> Press [ENTER] to back to menu\n");
 	printf("\n\n");
@@ -537,7 +502,6 @@ void sort_data(){
 		{
 			system("cls");
 			printf("\n--- Sort (ID File) ---\n");
-<<<<<<< HEAD
 			if(n==0){
 				printf("\n\n[Keterangan] :");
 				printf("\n ______________________________________________________ ");
@@ -562,17 +526,11 @@ void sort_data(){
 				system("cls");
 				sort_data();
 			}
-=======
-			getch();
-			system("cls");
-			sort_data();
->>>>>>> d9b5a4bad49215cb97be11ad11aec44178eeab20
 		}
 		case 2 :
 		{
 			system("cls");
 			printf("\n--- Sort (Nama File) ---\n");
-<<<<<<< HEAD
 			if(n==0){
 				printf("\n\n[Keterangan] :");
 				printf("\n ______________________________________________________ ");
@@ -597,16 +555,10 @@ void sort_data(){
 				system("cls");
 				sort_data();
 			}
-=======
-			getch();
-			system("cls");
-			sort_data();
->>>>>>> d9b5a4bad49215cb97be11ad11aec44178eeab20
 		}
 		case 3 :
 		{
 			system("cls");
-<<<<<<< HEAD
 			printf("\n--- Sort (Jenis File) ---\n");
 			if(n==0){
 				printf("\n\n[Keterangan] :");
@@ -633,18 +585,11 @@ void sort_data(){
 				system("cls");
 				sort_data();
 			}
-=======
-			printf("\n--- Sort (Owner File) ---\n");
-			getch();
-			system("cls");
-			sort_data();
->>>>>>> d9b5a4bad49215cb97be11ad11aec44178eeab20
 		}
 		case 4 :
 		{
 			system("cls");
 			printf("\n--- Sort (Jenis File) ---\n");
-<<<<<<< HEAD
 			if(n==0){
 				printf("\n\n[Keterangan] :");
 				printf("\n ______________________________________________________ ");
@@ -669,17 +614,11 @@ void sort_data(){
 				system("cls");
 				sort_data();
 			}
-=======
-			getch();
-			system("cls");
-			sort_data();
->>>>>>> d9b5a4bad49215cb97be11ad11aec44178eeab20
 		}
 		case 5 :
 		{
 			system("cls");
 			printf("\n--- Sort (Ekstensi File) ---\n");
-<<<<<<< HEAD
 			if(n==0){
 				printf("\n\n[Keterangan] :");
 				printf("\n ______________________________________________________ ");
@@ -704,17 +643,11 @@ void sort_data(){
 				system("cls");
 				sort_data();
 			}
-=======
-			getch();
-			system("cls");
-			sort_data();
->>>>>>> d9b5a4bad49215cb97be11ad11aec44178eeab20
 		}
 		case 6 :
 		{
 			system("cls");
 			printf("\n--- Sort (Tanggal File) ---\n");
-<<<<<<< HEAD
 			if(n==0){
 				printf("\n\n[Keterangan] :");
 				printf("\n ______________________________________________________ ");
@@ -739,11 +672,6 @@ void sort_data(){
 				system("cls");
 				sort_data();
 			}
-=======
-			getch();
-			system("cls");
-			sort_data();
->>>>>>> d9b5a4bad49215cb97be11ad11aec44178eeab20
 		}
 		case 7 :
 		{
@@ -763,8 +691,4 @@ void sort_data(){
 		}
 	}
 }
-<<<<<<< HEAD
 //Copyright (c) Aplikasi Direktori (Folder) by NPM [013] & [014] All Rights Reserved
-=======
-//Copyright (c) Aplikasi Direktori (Folder) by NPM [013] & [014] All Rights Reserved
->>>>>>> d9b5a4bad49215cb97be11ad11aec44178eeab20
