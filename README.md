@@ -16,3 +16,19 @@
 <p>
 	Dari penjelasan diatas dapat kami simpulkan bahwa final project yang kami kerjakan mengikuti kaidah pemrograman bahasa C dengan mengimplementasikan metode CRUD (Create, Read, Update, Delete) dengan tambahan searching berupa binary search dan sorting berupa insertion search, selain itu didalam program ini mengutamakan user friendly system dan error handling. Hal tersebut dilakukan agar mempermudah pengguna program dalam mengakses berbagai fitur yang telah kami sediakan. Sekian laporan yang dapat kami sampaikan terkait final project mata kuliah pemrograman lanjut dengan judul “Aplikasi Direktori (Folder)”. Dengan minimnya pengetahuan yang kami miliki dalam pembuatan laporan ini, sehingga kami mohon arahan untuk saran dan kesannya agar laporan ini dapat menjadi lebih baik lagi. Terima kasih.
 </p>
+
+<h2>Karya</h2>
+  <table boder="1">
+        <tr>
+		<td>NAMA</td>
+		<td>NPM</td>	
+        </tr>
+        <tr>
+		<td>DEVAN CAKRA MUDRA WIJAYA</td>
+		<td>18081010013</td>
+	</tr>
+	<tr>
+		<td>RIZQI YAHYA MAHENDRA</td>
+		<td>18081010014</td>
+        </tr>
+    </table>
