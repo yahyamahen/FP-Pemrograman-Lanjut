@@ -71,14 +71,34 @@ https://onboardcloud.dl.sourceforge.net/project/orwelldevcpp/Setup%20Releases/De
 </table>
 <table>
 <tr>
-<th width="280"></th>
-<th width="280"></th>
-<th width="280"></th>
+<th width="280">Read</th>
+<th width="280">Update</th>
+<th width="280">Delete</th>
 </tr>
 <tr>
-<td><img src="" alt=""></td>
-<td><img src="" alt=""></td>
-<td><img src="" alt=""></td>
+<td><img src="https://github.com/yahyamahen/FP-Pemrograman-Lanjut/assets/54527592/9044d453-0cb1-47be-89d5-d03becbb2de0" alt="read"></td>
+<td><img src="https://github.com/yahyamahen/FP-Pemrograman-Lanjut/assets/54527592/e12b449a-86d4-4112-be49-b20c1cdf4a38" alt="update"></td>
+<td><img src="https://github.com/yahyamahen/FP-Pemrograman-Lanjut/assets/54527592/7be21983-f05b-41b0-92c5-ec0ccbd580ee" alt="delete"></td>
+</tr>
+</table>
+<table>
+<tr>
+<th colspan="3">Search</th>
+</tr>
+<tr>
+<td width="280"><img src="" alt="search-menu"></td>
+<td width="280"><img src="" alt="search-1"></td>
+<td width="280"><img src="" alt="search-2"></td>
+</tr>
+</table>
+<table>
+<tr>
+<th colspan="3">Sort</th>
+</tr>
+<tr>
+<td width="280"><img src="" alt="sort-menu"></td>
+<td width="280"><img src="" alt="sort-1"></td>
+<td width="280"><img src="" alt="sort-2"></td>
 </tr>
 </table>
 
