@@ -3,9 +3,9 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/yahyamahen/FP-Pemrograman-Lanjut)
 ![C](https://img.shields.io/badge/c%20-%2300599C.svg?&logo=c&logoColor=white)
 
-# FP-Pemrograman-Lanjut
+# Aplikasi-Manajemen-Direktori
 <p align="justify">
-	Proyek akhir yang kami kerjakan dengan judul "Aplikasi Direktori (Folder)" ini merupakan proyek akhir dari mata kuliah "Pemrograman Lanjut" yang menggunakan bahasa C. Aplikasi Direktori (Folder) yang kami buat dan kembangkan ini menerapkan metode CRUD (Create, Read, Update, Delete) dan juga menambahkan metode pencarian berupa binary search dan metode pengurutan berupa insertion sort. Dalam penulisan laporan tugas akhir ini, kami akan memberikan beberapa pengertian yang berkaitan dengan judul tugas akhir, karena tanpa adanya pengertian yang jelas, maka informasi yang disajikan tidak akan sesuai dengan hasil tugas akhir yang dipaparkan. Tentunya ada faktor-faktor lain yang perlu diperhatikan dalam pemrograman, seperti error handling dan efisiensi dalam penulisan source code, selain itu membuat program yang user friendly. Semua itu tentu penting agar program yang dibuat lebih fungsional dan memudahkan pengguna.
+	Proyek akhir yang kami kerjakan dengan judul "Aplikasi Manajemen Direktori" ini merupakan proyek akhir dari mata kuliah "Pemrograman Lanjut" yang menggunakan bahasa C. Aplikasi Manajemen Direktori yang kami buat dan kembangkan ini menerapkan metode CRUD (Create, Read, Update, Delete) dan juga menambahkan metode pencarian berupa binary search dan metode pengurutan berupa insertion sort. Dalam penulisan laporan tugas akhir ini, kami akan memberikan beberapa pengertian yang berkaitan dengan judul tugas akhir, karena tanpa adanya pengertian yang jelas, maka informasi yang disajikan tidak akan sesuai dengan hasil tugas akhir yang dipaparkan. Tentunya ada faktor-faktor lain yang perlu diperhatikan dalam pemrograman, seperti error handling dan efisiensi dalam penulisan source code, selain itu membuat program yang user friendly. Semua itu tentu penting agar program yang dibuat lebih fungsional dan memudahkan pengguna.
 </p>
 <br>
 
@@ -20,7 +20,7 @@
 
 ## Kesimpulan
 <p align="justify">
-	Dari penjelasan di atas, dapat kami simpulkan bahwa tugas akhir yang kami kerjakan mengikuti kaidah pemrograman bahasa C dengan mengimplementasikan metode CRUD (Create, Read, Update, Delete) dengan tambahan pencarian berupa binary search dan pengurutan berupa insertion sort, selain itu pada program ini mengutamakan sistem yang ramah pengguna dan pengendalian masalah. Hal ini dilakukan untuk memudahkan pengguna program dalam mengakses berbagai fitur yang telah kami sediakan. Sekian laporan yang dapat kami sampaikan mengenai tugas akhir mata kuliah pemrograman lanjut dengan judul "Aplikasi Direktori (Folder)". Dengan minimnya pengetahuan yang kami miliki dalam pembuatan laporan ini, maka kami mohon maaf sebesar-besarnya. Akhir kata kami ucapkan terima kasih.
+	Dari penjelasan di atas, dapat kami simpulkan bahwa tugas akhir yang kami kerjakan mengikuti kaidah pemrograman bahasa C dengan mengimplementasikan metode CRUD (Create, Read, Update, Delete) dengan tambahan pencarian berupa binary search dan pengurutan berupa insertion sort, selain itu pada program ini mengutamakan sistem yang ramah pengguna dan pengendalian masalah. Hal ini dilakukan untuk memudahkan pengguna program dalam mengakses berbagai fitur yang telah kami sediakan. Sekian laporan yang dapat kami sampaikan mengenai tugas akhir mata kuliah pemrograman lanjut dengan judul "Aplikasi Manajemen Direktori". Dengan minimnya pengetahuan yang kami miliki dalam pembuatan laporan ini, maka kami mohon maaf sebesar-besarnya. Akhir kata kami ucapkan terima kasih.
 </p>
 
 <br>
