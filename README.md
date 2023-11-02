@@ -1,34 +1,106 @@
-<h1>Laporan Final Project Pemrograman Lanjut</h1>
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?style=flat)](https://github.com/ellerbrock/open-source-badges/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+![GitHub last commit](https://img.shields.io/github/last-commit/yahyamahen/FP-Pemrograman-Lanjut)
+![C](https://img.shields.io/badge/c%20-%2300599C.svg?&logo=c&logoColor=white)
 
-<h2>Latar Belakang</h2>
-<p>
-	Final project yang kami kerjakan dengan judul “Aplikasi Direktori (Folder)” merupakan tugas akhir dari mata kuliah “Pemrograman Lanjut” yang mana menggunakan bahasa C sebagai penyelesaiannya. Aplikasi Direktori (Folder) yang kami buat dan kembangkan ini menerapkan metode CRUD (Create, Read, Update, Delete) dan juga menambahkan metode searching berupa binary search serta metode sorting berupa insertion sort. Dalam penulisan laporan final project ini, kami akan memberikan beberapa pengertian yang berhubungan dengan judul final project tersebut, karena tanpa pengertian yang jelas akan menyebabkan informasi yang disajikan tidak sesuai dengan hasil final project yang dipaparkan. Tentunya ada faktor lain yang perlu diperhatikan dalam pemrograman, seperti error handling dan efisiensi dalam menuliskan source code, selain itu menciptakan program yang user friendly. Semua itu tentunya penting supaya program yang dibuat lebih fungsional dan memudahkan penggunanya. 
+# FP-Pemrograman-Lanjut
+<p align="justify">
+	The final project that we are working on with the title "Directory (Folder) Application" is the final project of the "Advanced Programming" course which uses the C language as a solution. The Directory (Folder) application that we created and developed applies the CRUD (Create, Read, Update, Delete) method and also adds a searching method in the form of binary search and a sorting method in the form of insertion sort. In writing this final project report, we will provide some definitions related to the final project title, because without a clear understanding, the information presented will not be in accordance with the final project results presented. Of course, there are other factors that need to be considered in programming, such as error handling and efficiency in writing source code, besides creating a user friendly program. All of that is certainly important so that the program created is more functional and makes it easier for users. 
+</p>
+<br>
+
+## Aim
+<p>The aims of this final project are:</p>
+	<li>Creating a user-friendly program.</li>
+	<li>Can write efficient source code.</li>
+	<li>Can create programs that have error handling.</li>
+	<li>Can create programs that have more functionality.</li>
+
+<br>
+
+## Conclusion
+<p align="justify">
+	From the explanation above, we can conclude that the final project we are working on follows the rules of C language programming by implementing the CRUD (Create, Read, Update, Delete) method with additional searching in the form of binary search and sorting in the form of insertion search, besides that in this program prioritizing a user friendly system and error handling. This is done to make it easier for program users to access the various features we have provided. That's all the reports we can submit regarding the final project of the advanced programming course with the title "Directory (Folder) Application". With the lack of knowledge we have in making this report, so we ask for direction for suggestions and impressions so that this report can be even better. Thank you.
 </p>
 
-<h2>Tujuan</h2>
-<p>Tujuan yang akan dicapai dari final project ini adalah :	</p>
-	<li>Menciptakan program yang user friendly.</li>
-	<li>Dapat menuliskan source code yang efisien.</li>
-	<li>Dapat membuat program yang memiliki error handling.</li>
-	<li>Dapat membuat program yang memiliki lebih fungsional.</li>
+<br>
 
-<h2>Kesimpulan</h2>
-<p>
-	Dari penjelasan diatas dapat kami simpulkan bahwa final project yang kami kerjakan mengikuti kaidah pemrograman bahasa C dengan mengimplementasikan metode CRUD (Create, Read, Update, Delete) dengan tambahan searching berupa binary search dan sorting berupa insertion search, selain itu didalam program ini mengutamakan user friendly system dan error handling. Hal tersebut dilakukan agar mempermudah pengguna program dalam mengakses berbagai fitur yang telah kami sediakan. Sekian laporan yang dapat kami sampaikan terkait final project mata kuliah pemrograman lanjut dengan judul “Aplikasi Direktori (Folder)”. Dengan minimnya pengetahuan yang kami miliki dalam pembuatan laporan ini, sehingga kami mohon arahan untuk saran dan kesannya agar laporan ini dapat menjadi lebih baik lagi. Terima kasih.
-</p>
+## Features / Framework / Tools
+| Part | Description |
+| --- | --- |
+| Features | Create, Read, Update, Delete, Search, Sort, & Error Handling |
+| Tools | Dev C++ |
 
-<h2>Karya</h2>
-  <table boder="1">
-        <tr>
-		<td>NAMA</td>
-		<td>NPM</td>	
-        </tr>
-        <tr>
-		<td>DEVAN CAKRA MUDRA WIJAYA</td>
-		<td>18081010013</td>
-	</tr>
-	<tr>
-		<td>RIZQI YAHYA MAHENDRA</td>
-		<td>18081010014</td>
-        </tr>
-    </table>
+<br>
+
+## Download & Install Dev C++
+```bash
+https://onboardcloud.dl.sourceforge.net/project/orwelldevcpp/Setup%20Releases/Dev-Cpp%205.11%20TDM-GCC%204.9.2%20Setup.exe
+```
+
+<br>
+
+## Running
+1.Download this repository.<br>
+2.Extract the file and open it with Dev C++.<br>
+3.Run the application program by pressing the F11 key.<br>
+4.Please enjoy [Done].
+
+<br>
+
+## Highlights
+<table>
+<tr>
+<th width="280"></th>
+<th width="280"></th>
+<th width="280"></th>
+</tr>
+<tr>
+<td><img src="" alt=""></td>
+<td><img src="" alt=""></td>
+<td><img src="" alt=""></td>
+</tr>
+</table>
+<table>
+<tr>
+<th width="280"></th>
+<th width="280"></th>
+<th width="280"></th>
+</tr>
+<tr>
+<td><img src="" alt=""></td>
+<td><img src="" alt=""></td>
+<td><img src="" alt=""></td>
+</tr>
+</table>
+<table>
+<tr>
+<th width="280"></th>
+<th width="280"></th>
+<th width="280"></th>
+</tr>
+<tr>
+<td><img src="" alt=""></td>
+<td><img src="" alt=""></td>
+<td><img src="" alt=""></td>
+</tr>
+</table>
+
+<br>
+
+## Creator
+| FULL NAME | NPM |
+| --- | --- |
+| Devan Cakra Mudra Wijaya | 18081010013 |
+| Rizqi Yahya Mahendra | 18081010014 |
+
+<br>
+
+## LICENSE
+MIT License - Copyright (c) 2019 - Rizqi Y. Mahendra & Devan C. M. Wijaya
+
+Permission is hereby granted without charge to any person obtaining a copy of this software and the software-related documentation files to deal in them without restriction, including without limitation the right to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons receiving the Software to be furnished therewith on the following terms:
+
+The above copyright notice and this permission notice must accompany all copies or substantial portions of the Software.
+
+IN ANY EVENT, THE AUTHOR OR COPYRIGHT HOLDER HEREIN RETAINS FULL OWNERSHIP RIGHTS. THE SOFTWARE IS PROVIDED AS IS, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, THEREFORE IF ANY DAMAGE, LOSS, OR OTHERWISE ARISES FROM THE USE OR OTHER DEALINGS IN THE SOFTWARE, THE AUTHOR OR COPYRIGHT HOLDER SHALL NOT BE LIABLE, AS THE USE OF THE SOFTWARE IS NOT COMPELLED AT ALL, SO THE RISK IS YOUR OWN.
