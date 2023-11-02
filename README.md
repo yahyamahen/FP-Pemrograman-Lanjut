@@ -51,26 +51,22 @@ https://onboardcloud.dl.sourceforge.net/project/orwelldevcpp/Setup%20Releases/De
 ## Highlights
 <table>
 <tr>
-<th width="280"></th>
-<th width="280"></th>
-<th width="280"></th>
+<th width="420">Splash Screen</th>
+<th width="420">Main Menu</th>
 </tr>
 <tr>
-<td><img src="" alt=""></td>
-<td><img src="" alt=""></td>
-<td><img src="" alt=""></td>
+<td><img src="https://github.com/yahyamahen/FP-Pemrograman-Lanjut/assets/54527592/8e40f780-5b1e-4b59-a609-d7c407048f92" alt="splash-screen"></td>
+<td><img src="https://github.com/yahyamahen/FP-Pemrograman-Lanjut/assets/54527592/50ce28a6-e827-4751-ae20-fa9e0bbe60fe" alt="main-menu"></td>
 </tr>
 </table>
 <table>
 <tr>
-<th width="280"></th>
-<th width="280"></th>
-<th width="280"></th>
+<th colspan="3">Add</th>
 </tr>
 <tr>
-<td><img src="" alt=""></td>
-<td><img src="" alt=""></td>
-<td><img src="" alt=""></td>
+<td width="280"><img src="https://github.com/yahyamahen/FP-Pemrograman-Lanjut/assets/54527592/f7a9c47a-5d1c-422a-959d-4ec833466874" alt="add-1"></td>
+<td width="280"><img src="https://github.com/yahyamahen/FP-Pemrograman-Lanjut/assets/54527592/1a7b8e9f-8de5-42e2-9b16-27545e951c1c" alt="add-2"></td>
+<td width="280"><img src="https://github.com/yahyamahen/FP-Pemrograman-Lanjut/assets/54527592/5cb88617-bbc5-411b-ace0-0210816452c1" alt="add-3"></td>
 </tr>
 </table>
 <table>
