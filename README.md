@@ -86,19 +86,18 @@ https://onboardcloud.dl.sourceforge.net/project/orwelldevcpp/Setup%20Releases/De
 <th colspan="3">Search</th>
 </tr>
 <tr>
-<td width="280"><img src="" alt="search-menu"></td>
-<td width="280"><img src="" alt="search-1"></td>
-<td width="280"><img src="" alt="search-2"></td>
+<td width="280"><img src="https://github.com/yahyamahen/FP-Pemrograman-Lanjut/assets/54527592/2531ebbd-ffdc-4117-ad6b-923e536767ed" alt="search-menu"></td>
+<td width="280"><img src="https://github.com/yahyamahen/FP-Pemrograman-Lanjut/assets/54527592/90fd35c4-8dfb-4db0-aa22-575f5b903820" alt="search-1"></td>
+<td width="280"><img src="https://github.com/yahyamahen/FP-Pemrograman-Lanjut/assets/54527592/b8f054bd-639b-45ac-a17f-826b31a42e9e" alt="search-2"></td>
 </tr>
 </table>
 <table>
 <tr>
-<th colspan="3">Sort</th>
+<th colspan="2">Sort</th>
 </tr>
 <tr>
-<td width="280"><img src="" alt="sort-menu"></td>
-<td width="280"><img src="" alt="sort-1"></td>
-<td width="280"><img src="" alt="sort-2"></td>
+<td width="420"><img src="https://github.com/yahyamahen/FP-Pemrograman-Lanjut/assets/54527592/25ff6f97-dabc-4ddb-a9ce-5c878f916e17" alt="sort-menu"></td>
+<td width="420"><img src="https://github.com/yahyamahen/FP-Pemrograman-Lanjut/assets/54527592/3d53ef50-2acb-4037-90c9-7efa5773d9d8" alt="sort-1"></td>
 </tr>
 </table>
 
