@@ -5,7 +5,7 @@
 
 # FP-Pemrograman-Lanjut
 <p align="justify">
-	The final project that we are working on with the title "Directory (Folder) Application" is the final project of the "Advanced Programming" course which uses the C language as a solution. The Directory (Folder) application that we created and developed applies the CRUD (Create, Read, Update, Delete) method and also adds a searching method in the form of binary search and a sorting method in the form of insertion sort. In writing this final project report, we will provide some definitions related to the final project title, because without a clear understanding, the information presented will not be in accordance with the final project results presented. Of course, there are other factors that need to be considered in programming, such as error handling and efficiency in writing source code, besides creating a user friendly program. All of that is certainly important so that the program created is more functional and makes it easier for users. 
+	The final project that we worked on with the title "Directory (Folder) Application" is the final project of the "Advanced Programming" course using the C language. The Directory (Folder) application that we created and developed applies the CRUD (Create, Read, Update, Delete) method and also adds a search method in the form of binary search and sorting method in the form of insertion sort. In writing this final project report, we will provide some definitions related to the final project title, because without a clear understanding, the information presented will not be in accordance with the final project results presented. Of course, there are other factors that need to be considered in programming, such as error handling and efficiency in writing source code, besides making user friendly programs. All of that is certainly important so that the program made is more functional and easier for users. 
 </p>
 <br>
 
@@ -20,7 +20,7 @@
 
 ## Conclusion
 <p align="justify">
-	From the explanation above, we can conclude that the final project we are working on follows the rules of C language programming by implementing the CRUD (Create, Read, Update, Delete) method with additional searching in the form of binary search and sorting in the form of insertion search, besides that in this program prioritizing a user friendly system and error handling. This is done to make it easier for program users to access the various features we have provided. That's all the reports we can submit regarding the final project of the advanced programming course with the title "Directory (Folder) Application". With the lack of knowledge we have in making this report, so we ask for direction for suggestions and impressions so that this report can be even better. Thank you.
+	From the explanation above, we can conclude that the final project we are working on follows the rules of C language programming by implementing the CRUD (Create, Read, Update, Delete) method with additional searches in the form of binary search and sorting in the form of insertion sort, besides that this program prioritizes a user-friendly system and problem control. This is done to make it easier for program users to access the various features we have provided. That's all the reports we can submit regarding the final project of the advanced programming course with the title "Directory (Folder) Application". With the lack of knowledge we have in making this report, we apologize profusely. Finally, we thank you.
 </p>
 
 <br>
