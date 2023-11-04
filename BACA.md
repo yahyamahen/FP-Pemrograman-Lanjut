@@ -41,10 +41,10 @@ https://onboardcloud.dl.sourceforge.net/project/orwelldevcpp/Setup%20Releases/De
 <br>
 
 ## Menjalankan
-1.Unduh repositori ini.<br>
-2.Ekstrak file dan buka dengan Dev C++.<br>
-3.Jalankan program aplikasi dengan menekan tombol F11.<br>
-4.Selamat menikmati [Selesai].
+1. Unduh repositori ini.<br>
+2. Ekstrak file dan buka dengan Dev C++.<br>
+3. Jalankan program aplikasi dengan menekan tombol F11.<br>
+4. Selamat menikmati [Selesai].
 
 <br>
 
