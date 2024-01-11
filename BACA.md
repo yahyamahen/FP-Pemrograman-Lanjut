@@ -25,7 +25,7 @@
 
 <br>
 
-## Fitur / Kerangka Kerja / Peralatan
+## Kebutuhan Proyek
 | Bagian | Deskripsi |
 | --- | --- |
 | Fitur | Buat, Baca, Perbarui, Hapus, Pencarian, Pengurutan, & Kendali Masalah |
