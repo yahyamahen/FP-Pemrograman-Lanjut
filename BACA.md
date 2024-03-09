@@ -111,6 +111,11 @@ https://onboardcloud.dl.sourceforge.net/project/orwelldevcpp/Setup%20Releases/De
 
 <br>
 
+## Apresiasi
+Jika Anda merasa karya ini bermanfaat, dukunglah karya ini sebagai bentuk apresiasi kepada penulisnya dengan mengeklik tombol ``` ⭐Star ```.
+
+<br>
+
 ## LISENSI 
 LISENSI MIT - Hak Cipta © 2019 - Rizqi Y. Mahendra & Devan C. M. Wijaya
 
