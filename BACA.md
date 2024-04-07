@@ -37,7 +37,7 @@
 <table><tr><td width="840">
 	
 ```
-http://bit.ly/DEVC_Installer
+https://bit.ly/DEVC_Installer
 ```
 
 </td></tr></table>
