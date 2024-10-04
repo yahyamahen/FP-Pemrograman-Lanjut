@@ -1,7 +1,8 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?style=flat)](https://github.com/ellerbrock/open-source-badges/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-![GitHub last commit](https://img.shields.io/github/last-commit/yahyamahen/FP-Pemrograman-Lanjut)
-![C](https://img.shields.io/badge/c%20-%2300599C.svg?&logo=c&logoColor=white)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?logo=github&color=%23F7DF1E)](https://opensource.org/licenses/MIT)
+![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/FP-Pemrograman-Lanjut?logo=Codeforces&logoColor=white&color=%23F7DF1E)
+![Project](https://img.shields.io/badge/Project-C-light.svg?style=flat&logo=c&logoColor=white&color=%23F7DF1E)
+![Type](https://img.shields.io/badge/Type-Campus%20Assignment-light.svg?style=flat&logo=gitbook&logoColor=white&color=%23F7DF1E)
 
 # Aplikasi-Manajemen-Direktori
 <p align="justify">
@@ -59,8 +60,8 @@ https://bit.ly/DEVC_Installer
 <th width="420">Main Menu</th>
 </tr>
 <tr>
-<td><img src="https://github.com/yahyamahen/FP-Pemrograman-Lanjut/assets/54527592/8e40f780-5b1e-4b59-a609-d7c407048f92" alt="splash-screen"></td>
-<td><img src="https://github.com/yahyamahen/FP-Pemrograman-Lanjut/assets/54527592/50ce28a6-e827-4751-ae20-fa9e0bbe60fe" alt="main-menu"></td>
+<td><img src="Documentation/Splash Screen.jpg" alt="splash-screen"></td>
+<td><img src="Documentation/Main Menu.jpg" alt="main-menu"></td>
 </tr>
 </table>
 <table>
@@ -68,9 +69,9 @@ https://bit.ly/DEVC_Installer
 <th colspan="3">Add</th>
 </tr>
 <tr>
-<td width="280"><img src="https://github.com/yahyamahen/FP-Pemrograman-Lanjut/assets/54527592/f7a9c47a-5d1c-422a-959d-4ec833466874" alt="add-1"></td>
-<td width="280"><img src="https://github.com/yahyamahen/FP-Pemrograman-Lanjut/assets/54527592/1a7b8e9f-8de5-42e2-9b16-27545e951c1c" alt="add-2"></td>
-<td width="280"><img src="https://github.com/yahyamahen/FP-Pemrograman-Lanjut/assets/54527592/5cb88617-bbc5-411b-ace0-0210816452c1" alt="add-3"></td>
+<td width="280"><img src="Documentation/Add-1.jpg" alt="add-1"></td>
+<td width="280"><img src="Documentation/Add-2.jpg" alt="add-2"></td>
+<td width="280"><img src="Documentation/Add-3.jpg" alt="add-3"></td>
 </tr>
 </table>
 <table>
@@ -80,9 +81,9 @@ https://bit.ly/DEVC_Installer
 <th width="280">Delete</th>
 </tr>
 <tr>
-<td><img src="https://github.com/yahyamahen/FP-Pemrograman-Lanjut/assets/54527592/9044d453-0cb1-47be-89d5-d03becbb2de0" alt="read"></td>
-<td><img src="https://github.com/yahyamahen/FP-Pemrograman-Lanjut/assets/54527592/e12b449a-86d4-4112-be49-b20c1cdf4a38" alt="update"></td>
-<td><img src="https://github.com/yahyamahen/FP-Pemrograman-Lanjut/assets/54527592/7be21983-f05b-41b0-92c5-ec0ccbd580ee" alt="delete"></td>
+<td><img src="Documentation/Read.jpg" alt="read"></td>
+<td><img src="Documentation/Update.jpg" alt="update"></td>
+<td><img src="Documentation/Delete.jpg" alt="delete"></td>
 </tr>
 </table>
 <table>
@@ -90,9 +91,9 @@ https://bit.ly/DEVC_Installer
 <th colspan="3">Search</th>
 </tr>
 <tr>
-<td width="280"><img src="https://github.com/yahyamahen/FP-Pemrograman-Lanjut/assets/54527592/2531ebbd-ffdc-4117-ad6b-923e536767ed" alt="search-menu"></td>
-<td width="280"><img src="https://github.com/yahyamahen/FP-Pemrograman-Lanjut/assets/54527592/90fd35c4-8dfb-4db0-aa22-575f5b903820" alt="search-1"></td>
-<td width="280"><img src="https://github.com/yahyamahen/FP-Pemrograman-Lanjut/assets/54527592/b8f054bd-639b-45ac-a17f-826b31a42e9e" alt="search-2"></td>
+<td width="280"><img src="Documentation/Search Menu.jpg" alt="search-menu"></td>
+<td width="280"><img src="Documentation/Searching-1.jpg" alt="searching-1"></td>
+<td width="280"><img src="Documentation/Searching-2.jpg" alt="searching-2"></td>
 </tr>
 </table>
 <table>
@@ -100,8 +101,8 @@ https://bit.ly/DEVC_Installer
 <th colspan="2">Sort</th>
 </tr>
 <tr>
-<td width="420"><img src="https://github.com/yahyamahen/FP-Pemrograman-Lanjut/assets/54527592/25ff6f97-dabc-4ddb-a9ce-5c878f916e17" alt="sort-menu"></td>
-<td width="420"><img src="https://github.com/yahyamahen/FP-Pemrograman-Lanjut/assets/54527592/3d53ef50-2acb-4037-90c9-7efa5773d9d8" alt="sort-1"></td>
+<td width="420"><img src="Documentation/Sort Menu.jpg" alt="sort-menu"></td>
+<td width="420"><img src="Documentation/Sorting.jpg" alt="sorting"></td>
 </tr>
 </table>
 
