@@ -29,7 +29,7 @@
 ## Project Requirements
 | Part | Description |
 | --- | --- |
-| Features | Create, Read, Update, Delete, Search, Sort, & Error Handling |
+| Features | • Create<br>• Read<br>• Update<br>• Delete<br>• Search<br>• Sort<br>• Error Handling |
 | Tools | Dev C++ |
 
 <br>
