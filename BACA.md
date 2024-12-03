@@ -29,7 +29,7 @@
 ## Kebutuhan Proyek
 | Bagian | Deskripsi |
 | --- | --- |
-| Fitur | Buat, Baca, Perbarui, Hapus, Pencarian, Pengurutan, & Kendali Masalah |
+| Fitur | • Buat<br>• Baca<br>• Perbarui<br>• Hapus<br>• Pencarian<br>• Pengurutan<br>• Kendali Masalah |
 | Peralatan | Dev C++ |
 
 <br>
