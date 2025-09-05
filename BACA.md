@@ -4,7 +4,7 @@
 ![Project](https://img.shields.io/badge/Project-Desktop-light.svg?style=flat&logo=c&logoColor=white&color=%23F7DF1E)
 ![Type](https://img.shields.io/badge/Type-Campus%20Assignment-light.svg?style=flat&logo=gitbook&logoColor=white&color=%23F7DF1E)
 
-# Aplikasi-Manajemen-Direktori
+# Aplikasi Manajemen Direktori
 <p align="justify">
 	Proyek akhir yang kami kerjakan dengan judul "Aplikasi Manajemen Direktori" ini merupakan proyek akhir dari mata kuliah "Pemrograman Lanjut" yang menggunakan bahasa C. Aplikasi Manajemen Direktori yang kami buat dan kembangkan ini menerapkan metode CRUD (Create, Read, Update, Delete) dan juga menambahkan metode pencarian berupa binary search dan metode pengurutan berupa insertion sort. Dalam penulisan laporan tugas akhir ini, kami akan memberikan beberapa pengertian yang berkaitan dengan judul tugas akhir, karena tanpa adanya pengertian yang jelas, maka informasi yang disajikan tidak akan sesuai dengan hasil tugas akhir yang dipaparkan. Tentunya ada faktor-faktor lain yang perlu diperhatikan dalam pemrograman, seperti error handling dan efisiensi dalam penulisan source code, selain itu membuat program yang user friendly. Semua itu tentu penting agar program yang dibuat lebih fungsional dan memudahkan pengguna.
 </p>
