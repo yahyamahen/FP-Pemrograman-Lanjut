@@ -4,7 +4,7 @@
 ![Project](https://img.shields.io/badge/Project-Desktop-light.svg?style=flat&logo=c&logoColor=white&color=%23F7DF1E)
 ![Type](https://img.shields.io/badge/Type-Campus%20Assignment-light.svg?style=flat&logo=gitbook&logoColor=white&color=%23F7DF1E)
 
-# Aplikasi-Manajemen-Direktori
+# Aplikasi Manajemen Direktori
 <p align="justify">
 	The final project that we worked on with the title "Directory Management application" is the final project of the "Advanced Programming" course using the C language. The Directory Management application that we created and developed applies the CRUD (Create, Read, Update, Delete) method and also adds a search method in the form of binary search and a sorting method in the form of insertion sort. In writing this final project report, we will provide some definitions related to the final project title, because without a clear understanding, the information presented will not be in accordance with the final project results presented. Of course, there are other factors that need to be considered in programming, such as error handling and efficiency in writing source code, besides making user friendly programs. All of that is certainly important so that the program made is more functional and easier for users. 
 </p>
